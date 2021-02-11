@@ -1,0 +1,12 @@
+{
+  "defaultProject": "proxima",
+  "projects": {
+    "proxima": {
+      "name": "proxima",
+      "integrations": {
+        "cordova": {}
+      },
+      "type": "angular"
+    }
+  }
+}

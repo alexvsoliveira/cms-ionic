@@ -1,0 +1,26 @@
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+
+import { AuthRegisterComponent } from './auth-register.component';
+
+describe('AuthRegisterComponent', () => {
+  let component: AuthRegisterComponent;
+  let fixture: ComponentFixture<AuthRegisterComponent>;
+
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [AuthRegisterComponent],
+      }).compileComponents();
+    })
+  );
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(AuthRegisterComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
